@@ -1,0 +1,1 @@
+javascript:var ids = '(ids go here)'; ids.split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)})
